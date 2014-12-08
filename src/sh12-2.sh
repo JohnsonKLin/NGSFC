@@ -1,0 +1,19 @@
+#!/bin/bash
+function printit(){
+	echo -n "Your choice is "
+}
+echo "This program will print your selection !"
+case $1 in
+	"one")
+		printit; echo $1 | tr 'a-z' 'A-Z'
+		;;
+	"two")
+		printit; echo $1 | tr 'a-z' 'A-Z'
+		;;
+	"three")
+		printit; echo $1 | tr 'a-z' 'A-Z'
+		;;
+	*)
+		printit; echo $1 | tr 'a-z' 'A-Z'
+		;;
+esac
